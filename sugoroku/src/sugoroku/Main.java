@@ -58,7 +58,8 @@ public class Main {
 					+ "\r\nさて、🎲サイコロをを振りたまえ🎲　　・・　そしてENTERを押しなさい"
 					+ "\r\n-------------------------------------------------");
 			input.nextLine();//入力まち（データは読み取らない）-
-			int proceed = rand.nextInt(4) + 1;//1~4のどれか適当に
+			int proceed = rand.nextInt(4) + 1;//1~4のどれか適当にコメントをいれた
+			//コメント追加していまーす
 			System.out.println( "∵∵∵∵∵∵∵■■■■■■■■■■■■■■■■∵∵∵∵∵∵∵∵" );
 			System.out.println( "∵∵∵∵∵∵∵▶▶　　" + proceed + "がでたようだね" +"   ◀◀∵∵∵∵∵∵∵");
 			
